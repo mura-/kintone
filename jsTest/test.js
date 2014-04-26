@@ -12,7 +12,7 @@
         for (var i = 0; i < elStatus.length; i++) {
             var record = event.records[i];  
  
-            if (record['処理状況']['value'] == "PAGMTG") {
+            if (record['会議種別']['value'] == "PAGMTG") {
                 elStatus[i].style.color = 'red';
                 elStatus[i].style.backgroundColor = 'cornsilk';
             }
