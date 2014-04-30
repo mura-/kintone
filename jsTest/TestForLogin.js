@@ -12,11 +12,11 @@
 
         alert("aaa");
 
+        var enterUserId = 'hogehoge';
+        var enterUserPw = 'foobar';
         var apiPath = '/k/v1/records.json';
         var httpMethod = 'GET';
         var query = {query : 'user_id = ' + enterUserId};
-        var enterUserId = 'hogehoge';
-        var enterUserPw = 'foobar';
 
 
         kintone.api(apiPath, httpMethod, query, function(resp) {
