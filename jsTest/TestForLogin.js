@@ -9,7 +9,9 @@
 //        var eluserId = kintone.app.getFieldElements('user_id');
 //        var elUserPw = kintone.app.getFieldElements('user_pw');
 //        var elUrgent = kintone.app.getFieldElements('Urgent');
-//
+
+        alert("aaa");
+
         var apiPath = '/k/v1/records.json';
         var httpMethod = 'GET';
         var query = {query : 'user_id = ' + enterUserId};
