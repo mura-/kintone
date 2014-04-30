@@ -16,10 +16,12 @@
         var enterUserPw = 'foobar';
         var apiPath = '/k/v1/records.json';
         var httpMethod = 'GET';
+        var appId = 75;
         var query = {query : 'user_id = ' + enterUserId};
+        var apiParam = {app : appId, query : query}
 
 
-        kintone.api(apiPath, httpMethod, query, function(resp) {
+        kintone.api(apiPath, httpMethod, {app : 75}, function(resp) {
 
             alert(resp);
         });
