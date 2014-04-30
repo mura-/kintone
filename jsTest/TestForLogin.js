@@ -14,7 +14,7 @@
 
         var enterUserId = 'hogehoge';
         var enterUserPw = 'foobar';
-        var apiPath = '/k/v1/records.json';
+        var apiPath = '/k/v1/records';
         var httpMethod = 'GET';
         var appId = 75;
         var query = {query : 'user_id = ' + enterUserId};
