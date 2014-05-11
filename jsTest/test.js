@@ -22,5 +22,10 @@
         }
  
     });
+
+
+    kineone.events.on('app.record.create.show', function (event) {
+        alert("test");
+    });
  
 })();
