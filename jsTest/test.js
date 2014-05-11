@@ -28,6 +28,7 @@
         var record = event.record;
         record['出席者']['disabled'] = false;
         record['会議名']['disabled'] = true;
+        alert("saasa");
         return event;
     });
  
