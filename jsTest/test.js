@@ -25,11 +25,11 @@
 
 
     kineone.events.on('app.record.create.show', function (event) {
-        var record = event.record;
-        record['出席者']['disabled'] = false;
-        record['会議名']['disabled'] = true;
+      //  var record = event.record;
+      //  record['出席者']['disabled'] = false;
+      //  record['会議名']['disabled'] = true;
+      //  return event;
         alert("saasa");
-        return event;
     });
  
 })();
