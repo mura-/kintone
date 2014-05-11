@@ -24,9 +24,10 @@
     });
 
 
-    kineone.events.on('app.record.create.change.出席者', function (event) {
+    kineone.events.on('app.record.create.show', function (event) {
         var record = event.record;
         record['出席者']['disabled'] = false;
+        record['会議名']['disabled'] = true;
         return event;
     });
  
