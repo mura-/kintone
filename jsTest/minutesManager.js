@@ -11,7 +11,7 @@
         return event;
     });
  
-    kintone.events.on('app.record.edit.submit', function (event) {
+    kintone.events.on('app.record.edit.show', function (event) {
         var record = event.record;
         record['出席者']['disabled'] = false;
         return event;
